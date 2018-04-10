@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+}
+
+#nm {
+    float: left;
+    width: 70%;
+}
+
+#a {
+    float: right;
+    width: 10%;
+    border-right-style: solid;
+    border-right: slategrey;
+}
+
+#p {
+    float: right;
+    width: 10%;
+}
+
+#c {
+    float: right;
+    width: 10%
+}
+
+#am_box {
+    clear: both;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: solid;
+    padding: 50px;
+}
+
+#am {
+    clear: both;
+    color: #4aaaa5;
+}
