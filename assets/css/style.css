@@ -1,33 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #ffffff;
+    margin: 0;
 }
 
 #heading {
     clear: both;
-    height: 20%;
+    height: 100px;
     margin-bottom: 5%;
-    border-style: solid;
-    padding: 50px;
+    border-bottom-style: groove;
+    padding-left: 10%;
 }
 
-.name {
+/* .name {
     text-align: center;
-}
+    height: 100%;
+    width: 50%;
+    margin: 0;
+} */
 
 #nm {
+    text-align: center;
+    padding-top: 30px;
     float: left;
     font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 300px;
+    height: 100%;
+    margin: 0px;
     background-color: #4aaaa5;
 }
 
 .menu {
     text-align: center;
+    padding-top: 15px;
+    padding-right: 10%;
+    width: 600px;   
+    float: right;
+    font-size: 20px;
 }
 
 #abt { 
     float: right;
-    width: 10%;
+    width: 15%;
     border-right-style: solid;
     border-right-width: 1.5px;
     border-right-color: rgb(112, 128, 144, .5);
@@ -36,7 +55,7 @@ body {
 
 #port {
     float: right;
-    width: 10%;
+    width: 15%;
     border-right-style: solid;
     border-right-width: 1.5px;
     border-right-color: rgb(112, 128, 144, .5);
@@ -44,13 +63,13 @@ body {
 
 #con {
     float: right;
-    width: 10%;
+    width: 15%;
 }
 
 #am_box {
     clear: both;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     width: 960;
     border-style: solid;
     padding: 50px;
