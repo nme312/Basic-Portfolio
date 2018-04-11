@@ -1,17 +1,20 @@
 body {
-    background-color: gray;
+    background-color: #ffffff;
 }
 
 #nm {
     float: left;
-    width: 70%;
+    width: 300px;
+    background-color: #4aaaa5;
 }
 
 #a {
     float: right;
     width: 10%;
     border-right-style: solid;
-    border-right: slategrey;
+    border-right-color: slategrey;
+    padding: 0%;
+    align-content: center;
 }
 
 #p {
@@ -21,7 +24,7 @@ body {
 
 #c {
     float: right;
-    width: 10%
+    width: 10%;
 }
 
 #am_box {
@@ -34,5 +37,7 @@ body {
 
 #am {
     clear: both;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
     color: #4aaaa5;
 }
