@@ -2,27 +2,47 @@ body {
     background-color: #ffffff;
 }
 
+#heading {
+    clear: both;
+    height: 20%;
+    margin-bottom: 5%;
+    border-style: solid;
+    padding: 50px;
+}
+
+.name {
+    text-align: center;
+}
+
 #nm {
     float: left;
+    font-size: 30px;
     width: 300px;
     background-color: #4aaaa5;
 }
 
-#a {
+.menu {
+    text-align: center;
+}
+
+#abt { 
     float: right;
     width: 10%;
     border-right-style: solid;
-    border-right-color: slategrey;
-    padding: 0%;
-    align-content: center;
+    border-right-width: 1.5px;
+    border-right-color: rgb(112, 128, 144, .5);
+    
 }
 
-#p {
+#port {
     float: right;
     width: 10%;
+    border-right-style: solid;
+    border-right-width: 1.5px;
+    border-right-color: rgb(112, 128, 144, .5);
 }
 
-#c {
+#con {
     float: right;
     width: 10%;
 }
@@ -31,6 +51,7 @@ body {
     clear: both;
     margin-left: 5%;
     margin-right: 5%;
+    width: 960;
     border-style: solid;
     padding: 50px;
 }
