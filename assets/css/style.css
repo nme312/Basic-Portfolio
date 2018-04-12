@@ -17,18 +17,9 @@ body {
     width: 100%;
     margin-bottom: 5%;
     border-bottom-style: groove;
-    padding-left: 10%;
+    padding-left: 300px;
+    padding-right: 250px;
 }
-
-.nm-box {
-    
-}
-
-/* .foot {
-    height: 100px;
-    margin-top: 5%;
-    background-color: blue;
-} */
 
 .rect {
     height: 60px;
@@ -79,8 +70,7 @@ body {
     width: 15%;
     border-right-style: solid;
     border-right-width: 1.5px;
-    border-right-color: rgb(112, 128, 144, .5);
-    
+    border-right-color: rgb(112, 128, 144, .5);   
 }
 
 .abtme {
