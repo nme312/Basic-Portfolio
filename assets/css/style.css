@@ -15,14 +15,15 @@ body {
     padding-left: 10%;
 }
 
-.foot {
-    background-color: blue;
+/* .foot {
     height: 100px;
-}
+    margin-top: 5%;
+    background-color: blue;
+} */
 
 .rect {
-    background-color: gray;
     height: 100px;
+    background-color: gray;
     
 }
 
@@ -30,14 +31,18 @@ body {
     margin-top: 5%;
     background-color: #4aaaa5;
     height: 20px;
-    bottom: 0px;
-    position: relative;
+    bottom: 100px;
+    position: absolute;
+    width: 100%;
 }
 
 .rect-2 {
-    height: 50px;
-    margin: 0;
     z-index: 2;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-top: 75px;
 }
 
 #nm {
