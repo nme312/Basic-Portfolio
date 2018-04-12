@@ -8,12 +8,36 @@ body {
     margin: 0;
 }
 
-#heading {
-    clear: both;
+.heading {
     height: 100px;
     margin-bottom: 5%;
     border-bottom-style: groove;
     padding-left: 10%;
+}
+
+.foot {
+    background-color: blue;
+    height: 100px;
+}
+
+.rect {
+    background-color: gray;
+    height: 100px;
+    
+}
+
+.rect-1 {
+    margin-top: 5%;
+    background-color: #4aaaa5;
+    height: 20px;
+    bottom: 0px;
+    position: relative;
+}
+
+.rect-2 {
+    height: 50px;
+    margin: 0;
+    z-index: 2;
 }
 
 #nm {
@@ -48,7 +72,7 @@ body {
 
 #port {
     float: right;
-    width: 15%;
+    width: 20%;
     border-right-style: solid;
     border-right-width: 1.5px;
     border-right-color: rgb(112, 128, 144, .5);
@@ -60,7 +84,6 @@ body {
 }
 
 #am_box {
-    clear: both;
     margin-left: 10%;
     margin-right: 10%;
     width: 960;
@@ -69,7 +92,6 @@ body {
 }
 
 #am {
-    clear: both;
     border-bottom-style: solid;
     border-bottom-color: gray;
     color: #4aaaa5;
